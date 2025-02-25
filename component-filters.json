@@ -2,7 +2,23 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "tab"
+    ]
+  },
+  {
+    "id": "columns",
+    "components": []
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "video",
+      "cards"
     ]
   },
   {
@@ -15,28 +31,32 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "carousel",
+      "video",
+      "slide",
+      "tab"
     ]
   },
   {
     "id": "cards",
     "components": [
-      "card"
-    ]
-  },
-  {
-    "id": "columns",
-    "components": [
-      "column"
-    ]
-  },
-  {
-    "id": "column",
-    "components": [
-      "text",
-      "image",
+      "card",
       "button",
-      "title"
+      "video"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "slide",
+      "button"
+    ]
+  },
+  {
+    "id": "video",
+    "components": [
+      "button",
+      "text"
     ]
   }
 ]
